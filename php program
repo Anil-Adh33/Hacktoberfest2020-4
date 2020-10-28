@@ -1,0 +1,10 @@
+1. Write php script to display following:   1,4,9,16...121   
+   
+<?php
+  $b;
+ for($a=1;$a<=11;$a++)
+{
+ $b=$a*$a;
+  echo $b."<br>";
+}
+?>
